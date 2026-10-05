@@ -2,7 +2,7 @@
 
 
 
-This repository contains my writeups for TryHackMe, HackTheBox, PortSwigger and OverTheWire challenges as i word toward becoming a Red Team Operator.
+This repository contains my writeups for TryHackMe, HackTheBox, PortSwigger and OverTheWire challenges as I work toward becoming a Red Team Operator.
 
 
 
@@ -32,7 +32,7 @@ Retired machines and challenges
 
 \### PortSwigger
 
-Web Security Ackademy labs covering:
+Web Security Academy labs covering:
 
 \- SQL Injection
 
@@ -118,11 +118,11 @@ This repository demonstrated:
 
 
 
-\### Certifications in Pursuit 
+\### Certifications in Pursuit
 
 \- \*\*PNPT\*\* (Practical Network Penetration Tester) - Network -and AD focused penetration testing
 
-\- \*\*CPTS\*\* (Certified Penetration Tester Specialist) - Advanced hands-on penetration testing 
+\- \*\*CPTS\*\* (Certified Penetration Tester Specialist) - Advanced hands-on penetration testing
 
 
 
