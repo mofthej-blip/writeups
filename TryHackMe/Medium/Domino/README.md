@@ -203,7 +203,7 @@ Username: sarah.johnson
 Password: <REDACTED>
 ```
 
-The I used these credentials to authenticate to the employee portal.
+The I used these credentials to authenticate to the employee portal
 
 Sarah's account was a standard user account and did not initially provide administrative privileges.
 
