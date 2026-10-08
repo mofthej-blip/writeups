@@ -163,11 +163,11 @@ To ensure the request itself was valid, I changed the input back to `127.0.0.1` 
 
 I then sent the modified request.
 
-![Command Injection](screenshots/command-injection.png)
+![Command Injection](screenshots/04-command-injection.png)
 
 After inspecting the response, I received the output of the injected command. This confirmed that I had achieved **Remote Code Execution**.
 
-![Remote Code Execution](screenshots/rce.png)
+![Remote Code Execution](screenshots/05-rce.png)
 
 I then tested whether sensitive files were accessible by changing the request to:
 
@@ -341,7 +341,7 @@ keepass2 infrastructure.kdbx
 
 After entering the password `spring`, I was able to access the stored credentials.
 
-![Root Retrieval](screenshots/10-root-pass.png)
+![Root Retrieval](screenshots/09-root.png)
 
 The password itself was not directly visible, but I was able to copy it using the application's built-in copy function.
 
