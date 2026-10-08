@@ -194,6 +194,7 @@ With the usernames identified, I saved them to `users.txt` and performed a passw
 
 ```bash
 hydra -L users.txt -P /usr/share/wordlists/rockyou_top10.txt <TARGET_IP> http-post-form "/login.php:username=^USER^&password=^PASS^:F=Login failed" -V
+```
 
 This identified valid credentials for:
 
