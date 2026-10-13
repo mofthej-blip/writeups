@@ -61,7 +61,7 @@ The scan identified three open services:
 
 FTP was the first service I investigated because exposed file-transfer services can allow access to files that are not publicly available through the website.
 
-![Nmap enumeration](screenshots/01-nmap.png)
+![Nmap enumeration](screenshots/01-nmap-enum.png)
 
 ## 1.1 FTP Enumeration
 
@@ -107,7 +107,7 @@ nmap -p 21 --script ftp-anon <TARGET_IP>
 
 The results confirmed that anonymous login was allowed.
 
-![Anonymous FTP login](screenshots/03-ftp-anonymous.png)
+![Anonymous FTP login](screenshots/03-anonymous-login.png)
 
 ### Downloading the Backup
 
@@ -121,7 +121,7 @@ I downloaded it using:
 get backup.tar.gz
 ```
 
-![FTP backup download](screenshots/04-ftp-backup.png)
+![FTP backup download](screenshots/04-ftp-extraction.png)
 
 ### Extracting the Archive
 
@@ -197,7 +197,7 @@ This provided a potential route to sensitive information if I could make the URL
 
 **Finding:** The backup disclosed internal application configuration, an allow-listed hostname, an administrative endpoint, and the location of an internal notes file.
 
-![Application source code](screenshots/05-source-code.png)
+![Application source code](screenshots/05-ftp-readme.png)
 
 ## 1.2 SSH Enumeration
 
@@ -209,7 +209,7 @@ nmap -p 22 --script "ssh-*" <TARGET_IP>
 
 The scan did not immediately provide a useful route to access. I stopped investigating SSH at this stage and returned to the web application, where the FTP source code had revealed a more promising attack path.
 
-![SSH enumeration](screenshots/06-ssh-enumeration.png)
+![SSH enumeration](screenshots/06-ftp-requirements.png)
 
 ## 1.3 Gobuster Enumeration
 
