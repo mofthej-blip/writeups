@@ -32,7 +32,7 @@ VGhlIHBhc3N3b3JkIGlzIHBZZk9ZNkh3VXNEajVyTDlVdnloVTdNQ212OHZONVJvCg==
 This is a base64 encoded string. This can easily be identified by the two equal signs at the end of the string `==`. For us to get the passowrd we need to decode the string. This can be achieved by using the `base64` command with the `-d, --decode` flag set.
 
 3. **Reading the Flag:**
-I used the `base` command, followed by the file name `data.txt` and the `-d`flag to read its contents:
+I used the `base64` command, followed by the file name `data.txt` and the `-d`flag to read its contents:
 
 ```bash
 base64 data.txt -d
@@ -47,7 +47,7 @@ The password is <REDACTED>
 ---
 
 ### 🔑 Key Features Learned
-* "" : 
+* "base64" : The base64 command is used to to encrypt data files. When paired with the `-d` flag, you can decrypt the encrypted files data.
 
 ### 🏁 Password/Flag
 `💾 pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro`
