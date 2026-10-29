@@ -72,12 +72,6 @@ Log into bandit17 via SSH utilizing the newly configured private key:
 ssh -i bandit17_private_key.txt bandit17@bandit.labs.overthewire.org -p 2220
 ```
 
-You are now logged in and you can read the static password saved on the current working directory:
-
-```bash
-cat .bandit16.password
-```
-
 ### 🔑 Key Features Learned
 
 * "nmap -sV -p <port range> TARGET_IP" : Instructs Nmap to scan a restricted range of network ports while actively probing them to perform application banner grabbing, exposing the exact software service types and version configurations (such as identifying whether an open socket uses standard TCP text routing or an encrypted TLS layer).
