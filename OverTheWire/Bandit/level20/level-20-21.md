@@ -68,4 +68,4 @@ Connection received on 127.0.0.1 48182
 * Network Inter-process Communication: Utilizing netcat (nc) to listen on a local port allows different terminal sessions or local binaries to communicate and exchange data seamlessly over TCP.
 
 ### 🏁 Password/Flag
-`💾 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA`
+`💾 bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY`
