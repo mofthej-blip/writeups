@@ -84,4 +84,4 @@ cat /tmp/my_bandit_script/password.txt
 * Linux Permissions Isolation: Utilized broad folder access permissions (chmod 777) to let distinct sandbox system accounts interact securely across user environments.
 
 ### 🏁 Password/Flag
-`💾 PK8fYLZg2hnHSz83plBL1iEPKdD3QToB`
+`💾 hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv`
